@@ -1,0 +1,297 @@
+/*======START ROOTS======*/
+
+:root {
+    --primery-font-family: Roboto, sans-serif;
+    --secondary-font-family: Raleway, sans-serif;
+    --primery-text-color-light-theme: #757575;
+    --secomdary-text-color-light-theme: #212121;
+    --primery-text-color-dark-theme: #FFFFFF;
+    --secomdary-text-color-dark-theme: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --bacground-color-dark-theme: #2F303A;
+    --bacground-color-light-theme: #F5F4FA;
+}
+
+/*======END ROOTS======*/
+
+/*======START BODY======*/
+body {
+    font-family: var(--primery-font-family);
+}
+
+/*======END BODY======*/
+
+/*======START COMPONENTS======*/
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.visually-hidden {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.what-we-do,
+.our-team-subtitle {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secomdary-text-color-light-theme);
+}
+
+/*======END COMPONENTS======*/
+
+/*======START LOGO======*/
+
+.logo {
+    font-family: var(--secondary-font-family);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-header {
+    color: #000;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+/*======END LOGO======*/
+
+/*======START NAVIGATION======*/
+
+.nav-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secomdary-text-color-light-theme);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: var(--accent-color);
+}
+
+.header-contact-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primery-text-color-light-theme);
+}
+
+.header-contact-list-link:hover,
+.header-contact-list-link:focus {
+    color: var(--accent-color);
+}
+
+.this-page {
+    color: var(--accent-color);
+}
+
+/*======END NAVIGATION======*/
+
+/*======START HERO======*/
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primery-text-color-dark-theme);
+}
+
+.hero-btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color-dark-theme);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+}
+
+.hero-btn {
+    cursor: pointer;
+    border-width: 0;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #188CE8;
+}
+
+.hero {
+    background-color: var(--bacground-color-dark-theme);
+}
+
+/*======END HERO======*/
+
+/*======START ABOUT US======*/
+
+.our-advantages-subtitle {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secomdary-text-color-light-theme);
+}
+
+.our-advantages-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color-light-theme);
+}
+
+/*======END ABOUT US======*/
+
+/*======START COMMAND BLOCK======*/
+.our-team-item {
+    background: #fff;
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team {
+    background-color: var(--bacground-color-light-theme);
+}
+
+.our-team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secomdary-text-color-light-theme);
+}
+
+.our-team-position {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color-light-theme);
+}
+
+/*======END COMMAND BLOCK======*/
+
+/*======START PORTFOLIO======*/
+
+.btn-type-projects {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secomdary-text-color-light-theme);
+    background: var(--bacground-color-light-theme);
+    border-radius: 4px;
+    cursor: pointer;
+    border-width: 0;
+    padding: 6px 22px;
+}
+
+.btn-type-projects:focus,
+.btn-type-projects:hover {
+    color: var(--primery-text-color-dark-theme);
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.projects-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secomdary-text-color-light-theme);
+}
+
+.projects-type {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color-light-theme);
+}
+
+.projects-list-item {
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    background: var(--primery-text-color-dark-theme);
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+/*======END PORTFOLIO======*/
+
+/*======START FOOTER======*/
+
+address {
+    font-style: normal;
+}
+
+.contact {
+    background-color: var(--bacground-color-dark-theme);
+}
+
+.contact-adress {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color-dark-theme);
+}
+
+.contact-mail,
+.contact-number {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secomdary-text-color-dark-theme);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+    text-decoration: underline;
+}
+
+.contact-number:focus,
+.contact-number:hover {
+    text-decoration: underline;
+}
+
+/*======END FOOTER======*/
